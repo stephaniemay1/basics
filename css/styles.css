@@ -1,0 +1,44 @@
+body{
+    background-color: darkslategray;
+    /*margin: 35px;*/
+    margin-left: 10px;
+    margin-right: 15px;
+    text-align: center;
+}
+
+p{
+    color: darkgrey;
+}
+.one,b{
+    color: darkred;
+    border: aqua 4px solid;
+    border-radius: 6px;
+}
+b{
+    padding: 6px;
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: #9dfd45;
+    border-bottom: #9dfd45 1px solid;
+    width: 56;
+
+}
+
+
+
+.p{
+    font-size: 30px;
+}
+.g{
+    width: 50%;
+    border-radius: 67% 67% 67% 67%;
+}
+img{
+    width: 23%;
+}

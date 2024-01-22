@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+        body{
+            background-color: black;
+            color: white;
+            margin-left: 5px;
+            margin-right: 2px;
+        }
+
+
+        .left{
+          border-radius: 15px;
+            background-color:#2b2c2d ;
+            color: ghostwhite;
+            padding: 15px;
+            border:#2b2c2d ;
+
+        }
+        button{
+            padding-right:  20px;
+            padding-left: 20px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            border-radius: 20px;
+            background-color: #2b2c2d;
+            color: ghostwhite;
+            cursor: pointer;
+        }
+        .ll{
+            float: right;
+            border-radius: 20px;
+            margin: 0.1px;
+            padding: 20px;
+            width:50%;
+            border: #2b2c2d 1px solid;
+            padding-right: 5px;
+        }
+
+        .rr{
+            float: left;
+            margin: 0.1px;
+            width: 45%;
+        }
+
+        .map{
+            -webkit-filter: grayscale(100%);
+            border-radius: 20px;
+            margin: 1px;
+            width: 100%;
+        }
+
+        h2{
+            font-family: FreeSans ;
+
+        }
+        button:hover{
+            background-color: floralwhite;
+            color: black;
+        }
+
+
+
+
+
+
+
+
+    </style>
+
+
+
+</head>
+
+
+<body>
+
+<div class="div">
+
+    <div class="rr">
+        <h2>Where we are</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d31910.647985051142!2d36.80174078540191!3d-1.2746750352861316!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e0!4m0!4m5!1s0x182f171dfb52ef3f%3A0x973a39272320f4d9!2sApen%20Softwares%2C%20Peace%20Towers%2C%20Ngara%20Rd%2C%20Nairobi!3m2!1d-1.2747446999999998!2d36.8203756!5e0!3m2!1sen!2ske!4v1705643542678!5m2!1sen!2ske" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="map"></iframe>
+
+    </div>
+
+    <div class="ll">
+        <h2>Send us a message</h2>
+
+<input type="text" placeholder="Name" class="left" required >
+
+<input type="email" placeholder="Email" class="left" required > <br><br>
+
+<input type="Number" placeholder="Phone" class="left" required >
+
+<input type="text" placeholder="Subject" class="left" required > <br><br>
+
+<textarea name="" id="" cols="30" rows="10" placeholder="Message" class="left" required > </textarea>  <br> <br>
+
+ <button>Submit</button>
+
+    </div>
+
+
+
+
+</div>
+
+</body>
+</html>
